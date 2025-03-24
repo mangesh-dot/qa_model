@@ -1,0 +1,32 @@
+2025-03-24 00:09:21,854 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 00:09:21,856 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-03-24 00:09:21,857 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:16]
+2025-03-24 00:09:21,858 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 00:09:21,858 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 00:09:21,859 - python_multipart.multipart - DEBUG - Calling on_field_name with data[17:25]
+2025-03-24 00:09:21,859 - python_multipart.multipart - DEBUG - Calling on_field_data with data[26:36]
+2025-03-24 00:09:21,860 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 00:09:21,862 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-24 00:09:22,039 - auth - DEBUG - Checking for username: 'mangesh'
+2025-03-24 00:09:22,089 - auth - DEBUG - Fetched row: RealDictRow([('id', 1), ('username', 'mangesh'), ('full_name', 'Mangesh Patil'), ('email', 'mangesh@example.com'), ('hashed_password', '$2b$12$gapUNCnTvF2iJUV4.uwK/.z/Kz92UGqnT67uhDx1KPUaPLFG/9QR.')])
+2025-03-24 00:09:22,090 - auth - ERROR - Error fetching user: 0
+2025-03-24 00:09:22,091 - auth - WARNING - Authentication failed for username: mangesh
+2025-03-24 00:12:48,538 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 00:12:48,542 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-03-24 00:12:48,543 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:16]
+2025-03-24 00:12:48,544 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 00:12:48,545 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 00:12:48,546 - python_multipart.multipart - DEBUG - Calling on_field_name with data[17:25]
+2025-03-24 00:12:48,546 - python_multipart.multipart - DEBUG - Calling on_field_data with data[26:36]
+2025-03-24 00:12:48,548 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 00:12:48,548 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-24 00:12:48,689 - auth - DEBUG - Checking for username: 'mangesh'
+2025-03-24 00:12:48,714 - auth - DEBUG - Fetched row: RealDictRow([('id', 1), ('username', 'mangesh'), ('full_name', 'Mangesh Patil'), ('email', 'mangesh@example.com'), ('hashed_password', '$2b$12$gapUNCnTvF2iJUV4.uwK/.z/Kz92UGqnT67uhDx1KPUaPLFG/9QR.')])
+2025-03-24 00:12:48,717 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\kmang\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-24 00:12:48,935 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2025-03-24 00:12:48,938 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround

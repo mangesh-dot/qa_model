@@ -1,0 +1,66 @@
+2025-03-24 07:59:14,766 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-24 08:02:52,483 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 08:02:52,485 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:11]
+2025-03-24 08:02:52,485 - python_multipart.multipart - DEBUG - Calling on_field_data with data[12:19]
+2025-03-24 08:02:52,486 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 08:02:52,487 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 08:02:52,488 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-03-24 08:02:52,489 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:39]
+2025-03-24 08:02:52,490 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 08:02:52,491 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-24 08:04:31,684 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 08:04:31,685 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-03-24 08:04:31,686 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:16]
+2025-03-24 08:04:31,687 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 08:04:31,688 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 08:04:31,689 - python_multipart.multipart - DEBUG - Calling on_field_name with data[17:25]
+2025-03-24 08:04:31,690 - python_multipart.multipart - DEBUG - Calling on_field_data with data[26:36]
+2025-03-24 08:04:31,691 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 08:04:31,692 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-24 08:04:31,936 - authentication.auth - DEBUG - Checking for username: 'mangesh'
+2025-03-24 08:04:31,985 - authentication.auth - DEBUG - Fetched row: RealDictRow([('id', 1), ('username', 'mangesh'), ('full_name', 'Mangesh Patil'), ('email', 'mangesh@example.com'), ('hashed_password', '$2b$12$gapUNCnTvF2iJUV4.uwK/.z/Kz92UGqnT67uhDx1KPUaPLFG/9QR.')])
+2025-03-24 08:04:31,988 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\kmang\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-24 08:04:31,992 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2025-03-24 08:04:31,995 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-03-24 08:05:29,634 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-03-24 08:05:29,639 - python_multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2025-03-24 08:05:29,640 - python_multipart.multipart - DEBUG - Calling on_header_value with data[75:117]
+2025-03-24 08:05:29,641 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-03-24 08:05:29,643 - python_multipart.multipart - DEBUG - Calling on_header_field with data[119:131]
+2025-03-24 08:05:29,644 - python_multipart.multipart - DEBUG - Calling on_header_value with data[133:143]
+2025-03-24 08:05:29,645 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-03-24 08:05:29,646 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-03-24 08:05:29,649 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:3961]
+2025-03-24 08:05:29,651 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-03-24 08:05:29,652 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-24 08:06:04,346 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-03-24 08:06:04,347 - python_multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2025-03-24 08:06:04,348 - python_multipart.multipart - DEBUG - Calling on_header_value with data[75:116]
+2025-03-24 08:06:04,349 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-03-24 08:06:04,350 - python_multipart.multipart - DEBUG - Calling on_header_field with data[118:130]
+2025-03-24 08:06:04,350 - python_multipart.multipart - DEBUG - Calling on_header_value with data[132:142]
+2025-03-24 08:06:04,351 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-03-24 08:06:04,351 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-03-24 08:06:04,352 - python_multipart.multipart - DEBUG - Calling on_part_data with data[146:4107]
+2025-03-24 08:06:04,354 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-03-24 08:06:04,355 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-24 08:07:42,471 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 08:07:42,472 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-03-24 08:07:42,473 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:16]
+2025-03-24 08:07:42,473 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 08:07:42,474 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-24 08:07:42,475 - python_multipart.multipart - DEBUG - Calling on_field_name with data[17:25]
+2025-03-24 08:07:42,476 - python_multipart.multipart - DEBUG - Calling on_field_data with data[26:36]
+2025-03-24 08:07:42,477 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-24 08:07:42,478 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-24 08:07:42,572 - authentication.auth - DEBUG - Checking for username: 'mangesh'
+2025-03-24 08:07:42,583 - authentication.auth - DEBUG - Fetched row: RealDictRow([('id', 1), ('username', 'mangesh'), ('full_name', 'Mangesh Patil'), ('email', 'mangesh@example.com'), ('hashed_password', '$2b$12$gapUNCnTvF2iJUV4.uwK/.z/Kz92UGqnT67uhDx1KPUaPLFG/9QR.')])
+2025-03-24 08:15:05,899 - authentication.auth - DEBUG - Checking for username: 'mangesh'
+2025-03-24 08:15:05,906 - authentication.auth - DEBUG - Fetched row: RealDictRow([('id', 1), ('username', 'mangesh'), ('full_name', 'Mangesh Patil'), ('email', 'mangesh@example.com'), ('hashed_password', '$2b$12$gapUNCnTvF2iJUV4.uwK/.z/Kz92UGqnT67uhDx1KPUaPLFG/9QR.')])
+2025-03-24 08:15:21,796 - authentication.auth - DEBUG - Checking for username: 'mangesh'
+2025-03-24 08:15:21,801 - authentication.auth - DEBUG - Fetched row: RealDictRow([('id', 1), ('username', 'mangesh'), ('full_name', 'Mangesh Patil'), ('email', 'mangesh@example.com'), ('hashed_password', '$2b$12$gapUNCnTvF2iJUV4.uwK/.z/Kz92UGqnT67uhDx1KPUaPLFG/9QR.')])
